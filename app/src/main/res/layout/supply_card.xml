@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingEnd="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/lin11hospital"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hospital:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:paddingRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/hospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source:"
+                    android:textSize="16sp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin11department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Department:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:paddingRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/department"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source:"
+                    android:textSize="16sp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:paddingRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source:"
+                    android:textSize="16sp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Month:"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:paddingRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/month"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source:"
+                    android:textSize="14sp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Week:"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:paddingRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source:"
+                    android:textSize="14sp"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin1111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Status:"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:paddingRight="5dp"/>
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Source:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingRight="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="6"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="View More"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_weight="3"
+                        android:background="@color/colorPrimary"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp"
+                        android:id="@+id/btnmore" />
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="Close Supply"
+                        android:textSize="12sp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="@android:color/white"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_weight="3"
+                        android:id="@+id/btnclose" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--<View-->
+    <!--android:layout_marginTop="15dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="#ccc"/>-->
+    <!--<View-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="1dp"-->
+    <!--android:background="#ccc"/>-->
+</android.support.v7.widget.CardView>
